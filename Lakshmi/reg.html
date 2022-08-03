@@ -1,0 +1,71 @@
+<html>  
+<head>  
+<title> Register Form</title>  
+</head>  
+<body>  
+    <h3> Account details </h3>  
+    <formform ="Login_form" onsubmit="submit_form()">  
+    <h4>NAME</h4>  
+    <input type="text" placeholder="Enter your name" id="n1"> 
+    <h4>Email</h4>  
+    <input type="text" placeholder="Enter your email" id="n2">
+    
+    <h4> PASSWORD</h4>  
+    <input type="password" placeholder="Enter your password" id="n3" > 
+    
+    <h4> MOBILE</h4>  
+    <select name="dropdown">
+        <option value="+91">+91</option>
+        <option value="+1">+1</option>
+        <option value="+971">+971</option>
+    </select>
+    <input type="number" placeholder="Enter your number" id="n4" > 
+
+    
+
+    <input type="submit" value="Create" onClick="create_account()"/>  
+
+
+    <script type="text/javascript">  
+        function create_account(){  
+        var n=document.getElementById("n1").value;  
+        var e=document.getElementById("n2").value;  
+        var p=document.getElementById("n3").value;  
+        var m=document.getElementById("n4").value; 
+        var letters = /^[A-Za-z]+$/;  
+        var email_val = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;   
+         
+        if(n==''||e==''||p==''||m=='')
+            {  
+                alert("Enter each details correctly");  
+             }  
+
+        else if(!letters.test(n))  
+            {  
+                alert('Name is incorrect must contain alphabets only');  
+            }  
+        else if (!email_val.test(e))  
+            {  
+                alert('Invalid email format please enter valid email id');  
+            }  
+
+        else if(document.getElementById("n3").value.length > 12)  
+            {  
+                alert("Password maximum length is 12");  
+            }  
+        else if(document.getElementById("n3").value.length < 6)  
+            {  
+                alert("Password minimum length is 6");  
+            }  
+        else{  
+                alert("Your account has been created successfully..");  
+
+            }  
+    }  
+</script>
+        
+   
+
+ 
+</body>  
+</html>  
