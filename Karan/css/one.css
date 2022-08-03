@@ -1,0 +1,298 @@
+body
+{
+    margin: 0em;
+}
+.top-banner
+{
+    display:flex;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    color:aliceblue;
+    margin: 0em;
+    font-size: 0.7rem;
+    
+}
+.logo img{
+    height: 9em;
+    margin:-8em 1em;
+}
+.logo2 img{
+    height: 10em;
+    margin-top:-5.6em;
+}
+/*.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+#phone
+{
+    margin: 1em;
+}
+#mail
+{
+    margin: 1em;
+}
+.top-banner button 
+{
+    
+    border: none;
+    color: white;
+    padding: 1em 1.2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 0px ;
+    margin-left: 2.5px;
+    cursor: pointer;
+}
+.numbers
+{
+    display: flex;
+    align-items: flex-start;
+}
+.signing
+{
+    margin-left: 80em ;
+}
+.buy
+{
+    background-color: rgb(0, 51, 255);
+}
+.join
+{
+    background-color: rgb(255, 0, 0);
+    
+}
+/*.menu button
+{
+    background-color: #ff0000; 
+    border: none;
+    color: white;
+    padding: 0em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0em 0em;
+    cursor: pointer;
+    
+}*/
+.menu a
+{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    padding: 1em 1.8em;
+}
+
+.menu
+{
+    
+    background-color: #ff0000;
+    display: flex;
+    
+}
+.form 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bigimage
+{
+    background-image: url("banner01.png");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#ben
+{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin:0em;
+}
+.form p
+{
+    color: rgb(255, 255, 255);
+}
+.book button{
+     
+    border: 0em;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.2em;
+    cursor: pointer;
+
+}
+.signin
+{
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 7px;
+    margin:0.3em;
+}
+.freetrial
+{
+    color: antiquewhite;
+    background-color: #ff0000;
+    border-radius: 7px;
+}
+.final-section
+{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 55, 207);
+}
+.final-section p{
+    
+    font-size: 1.5em;
+    margin: 0;
+    color: aliceblue;
+}
+#blackc{
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+.blog
+{
+    display:flex;
+}
+.blog .blogone img
+{
+    height: 250px;
+    width: 100%;
+    margin: 2px 0px;
+}
+.blog .blogone
+{
+    margin: 0px 2px;
+}
+/*------------------------------------------------------------------------------------------------------------------*/
+@media  screen and (max-width:786px)
+{
+    .blog{
+        flex-direction: column;
+    }
+    
+}
+@media  screen and (max-width:480px)
+{
+    .blog{
+        flex-direction: column;
+    }
+    .signing
+    {
+    margin-left: 20em ;
+    }
+
+    
+
+    .top-banner
+    {
+    display:flex;
+    background-color: rgb(31, 31, 31);
+    color:aliceblue;
+    margin: 0em;
+    font-size: 0.4rem;
+    
+    }
+    /*.menu button
+    {
+    background-color: #ff0000; 
+    border: none;
+    color: white;
+    padding: 0.7em 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.25rem;
+    margin: 0em 0em;
+    cursor: pointer;
+    
+    }*/
+    .menu a
+    {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    padding: 1em 2em;
+    font-size: 0.1em;
+    }
+
+
+  .bigimage
+    {
+    background-image: url("banner01.png");
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -20em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .final-section p
+    {
+    
+    font-size: 1.5em;
+    margin: 0;
+    color: aliceblue;
+    
+    }
+    #blackc
+    {
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    }
+    .final-section
+    {
+    padding: 0.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 55, 207);
+    }
+    .book button 
+    {
+    border: 0em;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.2em;
+    cursor: pointer;
+    }
+    #phone
+    {
+    color: black;
+    }
+    .buy
+    {
+    background-color: black;
+    opacity: 0%;
+    }
+    .logo img{
+        height: 6em;
+        margin:-5.2em -10em;
+    }
+} 
