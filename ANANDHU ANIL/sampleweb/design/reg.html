@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <div class="title">
+                
+                    <label for="name">Name</label>
+                    <input  type="text"    name="name" id="name"/><br>
+                    <p id="p01"></p><br>
+                    
+                    <label for="email">Email</label>
+                    <input type="email"   name="email" id="email"/>
+                    <br>
+                    <p id="p02"></p><br>
+                
+                    <label for="password1">Password</label>
+                    <input type="password"  name="password1"  id="password1"/><br>
+                    <br>
+                    <label for="password2">Re Enter Password</label>
+                    <input type="password"  name="password2"  id="password2"/>
+                    <p id="p03"></p><br>
+                    
+                
+                    <label for="mobile">Mobile</label>
+                    <input type="mobile"   name="mobile" id="mob"/>
+                    <p id="p05"></p><br>
+
+                    <button onclick="getInputVal()">Register</button>
+                </form>
+
+            </div>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
