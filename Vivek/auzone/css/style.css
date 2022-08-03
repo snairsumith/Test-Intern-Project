@@ -75,15 +75,14 @@ display: flex;
 color: aliceblue;
 }
 
+@media only screen and(max-device-width:768px){
+    .main-rapper{
+        display: flex;
+    }
+   }   
+@media only screen and(max-device-width:768px){
+    .main-rapper{
+        height: 360px;
+    }
+   }   
 
-.blog-container{
-    display: flex;
-    flex-direction: row;
-    
-}
-
-.blog-session{
-    width: 100% ;
-    height: 250px;
-    object-fit:cover;
-}
